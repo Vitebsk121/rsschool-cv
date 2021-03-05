@@ -1,1 +1,1 @@
-# rsschool-cv
+my CV [located here](https://Vitebsk121.github.io/rsschool-cv/cv)
