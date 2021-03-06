@@ -1,0 +1,75 @@
+* {
+margin: 0;
+}
+
+body {
+    background: linear-gradient(#9198e5, #e66465)
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.intro {
+    margin: 10px 0 0 0;
+}
+
+.contacts {
+    margin: 40px 0 0 0;
+}
+
+#avatar {
+    margin: 5px;
+    width: 90%;
+    border-radius: 50%;
+    border-width: thin;
+    border-style: groove;
+    border-color: cornflowerblue;
+}
+
+
+main {
+    margin: 0 auto;
+}
+
+.example {
+    margin: 0 0 10px 50px;
+    width: 70%;
+    background-color: rgb(170, 170, 170);
+}
+
+.strCode {
+    width: 80%;
+}
+
+.experience {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(255, 240, 144);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+#icon  {
+    width: 35%;
+}
+
+#deletemark {
+    list-style-type: none;
+    padding-left: 0px;
+}
+h2 {
+    margin-bottom: 5px;
+}
