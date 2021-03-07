@@ -3,7 +3,7 @@ margin: 0;
 }
 
 body {
-    background: linear-gradient(#9198e5, #e66465)
+    background: linear-gradient(#9198e5, #e66465);
 }
 
 .wrapper {
@@ -13,8 +13,9 @@ body {
 
 header {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .intro {
@@ -22,12 +23,12 @@ header {
 }
 
 .contacts {
-    margin: 40px 0 0 0;
+    margin: 40px 0 0 10px;
 }
 
 #avatar {
     margin: 5px;
-    width: 90%;
+    width: 14em;
     border-radius: 50%;
     border-width: thin;
     border-style: groove;
